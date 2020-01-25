@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,12 +24,12 @@
                 </li>
                 <li>
                     <label for="email" id="email-label">Email</label>
-                    <input class="round-corner" type="text" id="email" name="user_email" placeholder="Enter your Email"
+                    <input class="round-corner" type="email" id="email" name="user_email" placeholder="Enter your Email"
                         required />
                 </li>
                 <li>
                     <label for="number" id="number-label">Age<span style="font-size: 1.5rem;">(optional)</span></label>
-                    <input class="round-corner" type="text" id="number" name="user_age" placeholder="Age" min="10"
+                    <input class="round-corner" id="number" type="number" name="user_age" placeholder="Age" min="10"
                         max="80" />
                 </li>
                 <li>
@@ -43,9 +44,9 @@
                 </li>
                 <li>
                     <p>Where do you enjoy watching movies?</p>
-                    <input type="radio" name="movie-place" checked> Home<br>
-                    <input type="radio" name="movie-place">Movie theatre<br>
-                    <input type="radio" name="movie-place"> Both
+                    <input type="radio" name="movie-place" value="home" checked> Home<br>
+                    <input type="radio" name="movie-place" value="theatre">Movie theatre<br>
+                    <input type="radio" name="movie-place" value="both"> Both
                 </li>
                 <li class="movie-names">
                     <p>Choose your favorite movies here:</p>
